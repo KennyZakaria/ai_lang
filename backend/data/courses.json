@@ -1,0 +1,489 @@
+{
+  "courses": [
+    {
+      "id": "french-basics-greetings",
+      "title": "French Basics - Greetings",
+      "description": "Master essential French greetings and introductions. Perfect for beginners.",
+      "targetLanguage": "French",
+      "difficulty": "beginner",
+      "topicCategory": "greetings",
+      "lessonsCount": 3,
+      "imageUrl": "https://placeholder.com/french-greetings.jpg"
+    },
+    {
+      "id": "french-travel-essentials",
+      "title": "French Travel Essentials",
+      "description": "Essential phrases for traveling in France. Navigate airports, hotels, and restaurants with confidence.",
+      "targetLanguage": "French",
+      "difficulty": "beginner",
+      "topicCategory": "travel",
+      "lessonsCount": 3,
+      "imageUrl": "https://placeholder.com/french-travel.jpg"
+    },
+    {
+      "id": "french-daily-conversations",
+      "title": "Daily Conversations",
+      "description": "Common everyday phrases for natural conversations in French.",
+      "targetLanguage": "French",
+      "difficulty": "intermediate",
+      "topicCategory": "conversation",
+      "lessonsCount": 3,
+      "imageUrl": "https://placeholder.com/french-daily.jpg"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "greetings-lesson-1",
+      "title": "Basic Hello & Goodbye",
+      "description": "Learn how to greet people and say goodbye in French",
+      "courseId": "french-basics-greetings",
+      "order": 1,
+      "estimatedMinutes": 5,
+      "exercises": [
+        {
+          "id": "ex-greeting-1",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-1",
+            "english": "Hello",
+            "target": "Bonjour",
+            "phonetic": "bon-zhoor"
+          },
+          "hints": ["Used during daytime", "Very common greeting"]
+        },
+        {
+          "id": "ex-greeting-2",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-2",
+            "english": "Good evening",
+            "target": "Bonsoir",
+            "phonetic": "bon-swar"
+          },
+          "hints": ["Used after 6 PM", "Polite evening greeting"]
+        },
+        {
+          "id": "ex-greeting-3",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-3",
+            "english": "Goodbye",
+            "target": "Au revoir",
+            "phonetic": "oh ruh-vwar"
+          },
+          "hints": ["Literal meaning: 'Until we see each other again'"]
+        },
+        {
+          "id": "ex-greeting-4",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-4",
+            "english": "See you soon",
+            "target": "À bientôt",
+            "phonetic": "ah bee-ehn-toh"
+          },
+          "hints": ["Casual way to say goodbye"]
+        }
+      ]
+    },
+    {
+      "id": "greetings-lesson-2",
+      "title": "How Are You?",
+      "description": "Learn to ask and respond about how someone is doing",
+      "courseId": "french-basics-greetings",
+      "order": 2,
+      "estimatedMinutes": 6,
+      "exercises": [
+        {
+          "id": "ex-howru-1",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-5",
+            "english": "How are you? (formal)",
+            "target": "Comment allez-vous?",
+            "phonetic": "koh-mahn tah-lay voo"
+          },
+          "hints": ["Use 'vous' for formal/plural"]
+        },
+        {
+          "id": "ex-howru-2",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-6",
+            "english": "How are you? (informal)",
+            "target": "Comment ça va?",
+            "phonetic": "koh-mahn sah vah"
+          },
+          "hints": ["More casual, for friends"]
+        },
+        {
+          "id": "ex-howru-3",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-7",
+            "english": "I'm fine, thank you",
+            "target": "Je vais bien, merci",
+            "phonetic": "zhuh vay bee-ehn, mehr-see"
+          },
+          "hints": ["Standard polite response"]
+        },
+        {
+          "id": "ex-howru-4",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-8",
+            "english": "And you?",
+            "target": "Et vous?",
+            "phonetic": "ay voo"
+          },
+          "hints": ["Ask the question back"]
+        }
+      ]
+    },
+    {
+      "id": "greetings-lesson-3",
+      "title": "Introducing Yourself",
+      "description": "Learn to introduce yourself and ask someone's name",
+      "courseId": "french-basics-greetings",
+      "order": 3,
+      "estimatedMinutes": 7,
+      "exercises": [
+        {
+          "id": "ex-intro-1",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-9",
+            "english": "My name is...",
+            "target": "Je m'appelle...",
+            "phonetic": "zhuh mah-pell"
+          },
+          "hints": ["Literally: 'I call myself'"]
+        },
+        {
+          "id": "ex-intro-2",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-10",
+            "english": "What is your name?",
+            "target": "Comment vous appelez-vous?",
+            "phonetic": "koh-mahn vooz ah-play voo"
+          },
+          "hints": ["Formal way to ask"]
+        },
+        {
+          "id": "ex-intro-3",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-11",
+            "english": "Nice to meet you",
+            "target": "Enchanté",
+            "phonetic": "ahn-shahn-tay"
+          },
+          "hints": ["Can also say 'Enchantée' if you're female"]
+        },
+        {
+          "id": "ex-intro-4",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-12",
+            "english": "Where are you from?",
+            "target": "D'où venez-vous?",
+            "phonetic": "doo vuh-nay voo"
+          },
+          "hints": ["Use to ask about someone's origin"]
+        }
+      ]
+    },
+    {
+      "id": "travel-lesson-1",
+      "title": "At the Airport",
+      "description": "Essential phrases for navigating the airport",
+      "courseId": "french-travel-essentials",
+      "order": 1,
+      "estimatedMinutes": 6,
+      "exercises": [
+        {
+          "id": "ex-airport-1",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-13",
+            "english": "Where is the baggage claim?",
+            "target": "Où est le retrait des bagages?",
+            "phonetic": "oo ay luh ruh-tray day bah-gazh"
+          },
+          "hints": ["Essential for arrival"]
+        },
+        {
+          "id": "ex-airport-2",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-14",
+            "english": "I need a taxi",
+            "target": "J'ai besoin d'un taxi",
+            "phonetic": "zhay buh-zwahn duhn tak-see"
+          },
+          "hints": ["Useful for getting to your hotel"]
+        },
+        {
+          "id": "ex-airport-3",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-15",
+            "english": "Where is gate number five?",
+            "target": "Où est la porte numéro cinq?",
+            "phonetic": "oo ay lah port new-may-roh sank"
+          },
+          "hints": ["For finding your boarding gate"]
+        }
+      ]
+    },
+    {
+      "id": "travel-lesson-2",
+      "title": "At the Hotel",
+      "description": "Check in and communicate at your hotel",
+      "courseId": "french-travel-essentials",
+      "order": 2,
+      "estimatedMinutes": 6,
+      "exercises": [
+        {
+          "id": "ex-hotel-1",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-16",
+            "english": "I have a reservation",
+            "target": "J'ai une réservation",
+            "phonetic": "zhay ewn ray-zehr-vah-see-ohn"
+          },
+          "hints": ["Use when checking in"]
+        },
+        {
+          "id": "ex-hotel-2",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-17",
+            "english": "What time is breakfast?",
+            "target": "À quelle heure est le petit-déjeuner?",
+            "phonetic": "ah kell uhr ay luh puh-tee day-zhuh-nay"
+          },
+          "hints": ["Important morning question"]
+        },
+        {
+          "id": "ex-hotel-3",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-18",
+            "english": "Can I have the key, please?",
+            "target": "Puis-je avoir la clé, s'il vous plaît?",
+            "phonetic": "pwee-zhuh ah-vwar lah klay, seel voo play"
+          },
+          "hints": ["Polite request for room key"]
+        }
+      ]
+    },
+    {
+      "id": "travel-lesson-3",
+      "title": "At the Restaurant",
+      "description": "Order food and drinks confidently",
+      "courseId": "french-travel-essentials",
+      "order": 3,
+      "estimatedMinutes": 7,
+      "exercises": [
+        {
+          "id": "ex-restaurant-1",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-19",
+            "english": "A table for two, please",
+            "target": "Une table pour deux, s'il vous plaît",
+            "phonetic": "ewn tahbl poor duh, seel voo play"
+          },
+          "hints": ["How to ask for seating"]
+        },
+        {
+          "id": "ex-restaurant-2",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-20",
+            "english": "The menu, please",
+            "target": "La carte, s'il vous plaît",
+            "phonetic": "lah kart, seel voo play"
+          },
+          "hints": ["'Menu' is 'carte' in French"]
+        },
+        {
+          "id": "ex-restaurant-3",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-21",
+            "english": "I would like...",
+            "target": "Je voudrais...",
+            "phonetic": "zhuh voo-dray"
+          },
+          "hints": ["Polite way to order"]
+        },
+        {
+          "id": "ex-restaurant-4",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-22",
+            "english": "The check, please",
+            "target": "L'addition, s'il vous plaît",
+            "phonetic": "lah-dee-see-ohn, seel voo play"
+          },
+          "hints": ["When you're ready to pay"]
+        }
+      ]
+    },
+    {
+      "id": "daily-lesson-1",
+      "title": "Shopping",
+      "description": "Navigate shops and make purchases",
+      "courseId": "french-daily-conversations",
+      "order": 1,
+      "estimatedMinutes": 6,
+      "exercises": [
+        {
+          "id": "ex-shop-1",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-23",
+            "english": "How much does this cost?",
+            "target": "Combien ça coûte?",
+            "phonetic": "kohm-bee-ehn sah koot"
+          },
+          "hints": ["Essential for shopping"]
+        },
+        {
+          "id": "ex-shop-2",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-24",
+            "english": "Do you accept credit cards?",
+            "target": "Acceptez-vous les cartes de crédit?",
+            "phonetic": "ak-sep-tay voo lay kart duh kray-dee"
+          },
+          "hints": ["Important payment question"]
+        },
+        {
+          "id": "ex-shop-3",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-25",
+            "english": "I'm just looking",
+            "target": "Je regarde seulement",
+            "phonetic": "zhuh ruh-gard suhl-mahn"
+          },
+          "hints": ["When browsing"]
+        }
+      ]
+    },
+    {
+      "id": "daily-lesson-2",
+      "title": "Asking for Help",
+      "description": "Get assistance and directions",
+      "courseId": "french-daily-conversations",
+      "order": 2,
+      "estimatedMinutes": 6,
+      "exercises": [
+        {
+          "id": "ex-help-1",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-26",
+            "english": "Excuse me",
+            "target": "Excusez-moi",
+            "phonetic": "ex-kew-zay mwah"
+          },
+          "hints": ["To get someone's attention"]
+        },
+        {
+          "id": "ex-help-2",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-27",
+            "english": "Can you help me?",
+            "target": "Pouvez-vous m'aider?",
+            "phonetic": "poo-vay voo may-day"
+          },
+          "hints": ["Polite request for assistance"]
+        },
+        {
+          "id": "ex-help-3",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-28",
+            "english": "I don't understand",
+            "target": "Je ne comprends pas",
+            "phonetic": "zhuh nuh kohm-prahn pah"
+          },
+          "hints": ["Very useful phrase"]
+        },
+        {
+          "id": "ex-help-4",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-29",
+            "english": "Do you speak English?",
+            "target": "Parlez-vous anglais?",
+            "phonetic": "par-lay voo ahn-glay"
+          },
+          "hints": ["When you need help in English"]
+        }
+      ]
+    },
+    {
+      "id": "daily-lesson-3",
+      "title": "Time and Numbers",
+      "description": "Tell time and use basic numbers",
+      "courseId": "french-daily-conversations",
+      "order": 3,
+      "estimatedMinutes": 7,
+      "exercises": [
+        {
+          "id": "ex-time-1",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-30",
+            "english": "What time is it?",
+            "target": "Quelle heure est-il?",
+            "phonetic": "kell uhr ay-teel"
+          },
+          "hints": ["Asking for the time"]
+        },
+        {
+          "id": "ex-time-2",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-31",
+            "english": "It's two o'clock",
+            "target": "Il est deux heures",
+            "phonetic": "eel ay duh zuhr"
+          },
+          "hints": ["Telling the time"]
+        },
+        {
+          "id": "ex-time-3",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-32",
+            "english": "Today",
+            "target": "Aujourd'hui",
+            "phonetic": "oh-zhoor-dwee"
+          },
+          "hints": ["Common time word"]
+        },
+        {
+          "id": "ex-time-4",
+          "type": "listen_repeat",
+          "phrase": {
+            "id": "phrase-33",
+            "english": "Tomorrow",
+            "target": "Demain",
+            "phonetic": "duh-mahn"
+          },
+          "hints": ["Future reference"]
+        }
+      ]
+    }
+  ]
+}
