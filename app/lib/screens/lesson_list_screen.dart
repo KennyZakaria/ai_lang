@@ -64,12 +64,7 @@ class LessonListScreen extends StatelessWidget {
                   await provider.selectLesson(lesson.id);
                   if (context.mounted && provider.selectedLesson != null) {
                     context.read<PracticeProvider>().startLesson(provider.selectedLesson!);
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => const PracticeScreen(),
-                      ),
-                    );
+                    Navigator.pushNamed(context, '/practice');
                   }
                 },
               );

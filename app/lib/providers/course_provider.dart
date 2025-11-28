@@ -24,15 +24,18 @@ class CourseProvider extends ChangeNotifier {
 
   // Load all courses
   Future<void> loadCourses() async {
+    print('🔄 Loading courses...');
     _isLoading = true;
     _error = null;
     notifyListeners();
 
     try {
       _courses = await _apiService.getCourses();
+      print('✅ Loaded ${_courses.length} courses');
       _isLoading = false;
       notifyListeners();
     } catch (e) {
+      print('❌ Error loading courses: $e');
       _error = e.toString();
       _isLoading = false;
       notifyListeners();

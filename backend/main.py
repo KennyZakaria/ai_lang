@@ -199,3 +199,7 @@ async def create_session():
 @app.get("/health")
 async def health():
     return {"status": "ok", "courses": len(course_service.get_all_courses())}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

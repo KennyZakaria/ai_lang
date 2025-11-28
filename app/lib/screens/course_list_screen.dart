@@ -79,14 +79,15 @@ class _CourseListScreenState extends State<CourseListScreen> {
               return _CourseCard(
                 course: course,
                 onTap: () async {
-                  await provider.selectCourse(course.id);
-                  if (context.mounted) {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => const LessonListScreen(),
-                      ),
-                    );
+                  print('🎯 Course tapped: ${course.title}');
+                  try {
+                    await provider.selectCourse(course.id);
+                    print('✅ Course selected, navigating...');
+                    if (!context.mounted) return;
+                    
+                    Navigator.pushNamed(context, '/lessons');
+                  } catch (e) {
+                    print('❌ Navigation error: $e');
                   }
                 },
               );

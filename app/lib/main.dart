@@ -3,6 +3,9 @@ import 'package:provider/provider.dart';
 import 'providers/course_provider.dart';
 import 'providers/practice_provider.dart';
 import 'screens/course_list_screen.dart';
+import 'screens/lesson_list_screen.dart';
+import 'screens/practice_screen.dart';
+import 'services/api_service.dart';
 
 void main() {
   runApp(const NatulangApp());
@@ -13,10 +16,13 @@ class NatulangApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Use localhost for web, 10.0.2.2 for Android emulator
+    final apiService = ApiService(baseUrl: 'http://localhost:8000');
+
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => CourseProvider()),
-        ChangeNotifierProvider(create: (_) => PracticeProvider()),
+        ChangeNotifierProvider(create: (_) => CourseProvider(apiService)),
+        ChangeNotifierProvider(create: (_) => PracticeProvider(apiService)),
       ],
       child: MaterialApp(
         title: 'Natulang - Language Learning',
@@ -46,7 +52,13 @@ class NatulangApp extends StatelessWidget {
             ),
           ),
         ),
-        home: const CourseListScreen(),
+        // Add routes for web navigation
+        initialRoute: '/',
+        routes: {
+          '/': (context) => const CourseListScreen(),
+          '/lessons': (context) => const LessonListScreen(),
+          '/practice': (context) => const PracticeScreen(),
+        },
       ),
     );
   }
